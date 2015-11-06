@@ -1,0 +1,251 @@
+@charset "uft-8";
+
+/*整体框架*/
+.case {
+	margin: 0 auto;
+	padding-top: 46px;
+	background: #f5f5f5;
+}
+/*方案内容部分*/
+.case_content {
+	position: relative;
+	width: 1118px;
+	height: 1110px;
+	padding: 58px 0 0 33px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+/*当前位置*/
+.case_position {
+	position: absolute;
+	top: -46px;
+	left: 0;
+	height: 46px;
+	line-height: 46px;
+	font-family: "Microsoft Yahei";
+}
+.case_position a {
+	color: #000;
+	font-family: "Microsoft Yahei";
+}
+/*方案导航*/
+.case_nav {
+	float: left;
+	width: 260px;
+	height: 267px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.case_nav h3 {
+	height: 20px;
+	margin-bottom: 23px;
+	font-size: 20px;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+}
+.case_nav li {
+	height: 48px;
+	padding-top: 7px;
+	border-top: 1px solid #dcdcdc;
+	font-family: "Microsoft Yahei";
+}
+.case_nav li span {
+	display: block;
+	height: 40px;
+	width: 216px;
+	padding-left: 44px;
+	background: url("../images/bac.png") 7px -618px no-repeat;
+	line-height: 40px;
+	color: #000;
+	font-family: "Microsoft Yahei";	
+	cursor: pointer;
+}
+/*.case_nav .select {
+	background: #f5f5f5 url("../images/bac.png") 23px center no-repeat;
+}*/
+.case_tit {
+	position: relative;
+}
+.case_nav .square {
+	display: block;
+	position: absolute;
+	z-index: 0;
+	height: 40px;
+	width: 260px;
+	margin-top: 7px;
+	background: rgb(157, 157, 157);
+	/*透明度兼容*/
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px; /* Firefox */
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+  	border-radius: 20px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+/*案例列表*/
+.case_list {
+	float: left;
+}
+/*导航顺序对应列表页*/
+.case_list .bluetooth, .smart, .safety, .mobile{
+	position: relative;
+	display: none;
+	width: 730px;
+	height: 1110px;
+	margin-left: 68px;
+	/*background: #fcc;*/
+}
+.case_list .change {
+	display: block;
+}
+/*导航方案每个列表*/
+.case_list dl {
+	overflow: hidden;
+	height: 165px;
+	padding-top: 19px;
+	border-bottom: 1px dotted #ccc;
+}
+.case_list dt a {
+	float: left;
+	width: 150px;
+	height: 113px;
+	padding: 3px;
+	border: 1px solid #ccc;
+	font-family: "Microsoft Yahei";
+}
+.case_list dt img {
+	display: block;
+	width: 150px;
+	height: 113px;
+}
+.case_list dd {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 529px;
+	height: 165px;
+	padding-left: 22px;
+}
+.case_list dd h3 {
+	float: left;
+	width: 449px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.case_list dd h3 a {
+	color: #000;
+	font-family: "Microsoft Yahei";
+}
+.case_list dd em {
+	float: right;
+	height: 20px;
+	line-height: 20px;
+	color: #107f8d;
+	font-size: 8px;\
+	font-family: "Microsoft Yahei";
+}
+.case_list dd p {
+	float: left;
+	width: 529px;
+	margin-top: 14px;
+	color: #999;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+}
+/*查看全文按钮*/
+.case_list .check {
+	position: absolute;
+	right: 0;
+	bottom: 25px;
+	height: 21px;
+	width: 107px;
+	border-radius: 10px;
+	line-height: 21px;
+	border: 1px solid #d1d2d2;
+	color: #000;
+	font-size: 12px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.7);/*字体阴影效果*/
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -ms-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -o-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);/*盒阴影效果*/
+	/*background: #fff;*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dadbdb));
+    background: -moz-linear-gradient(top,  #fff,  #dadbdb);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 2, startColorstr = #fff, endColorstr = #dadbdb);   
+}
+.check:hover {
+    background: #e1e1e1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#e1e1e1));
+    background: -moz-linear-gradient(top,  #e1e1e1,  #e1e1e1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='#e1e1e1');
+}
+.check:active {
+    color: #8e8e8e;
+    bottom: 24px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#fff));
+    background-image: -moz-linear-gradient(top,  #e3e3e3,  #fff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3e3e3', endColorstr='#fff');
+}
+/* 跳转页面数 */
+.case_pages {
+	position: absolute;
+	bottom: 81px;
+	left: 223px;
+	height: 47px;
+}
+.case_pages a {
+	float: left;
+	width: 34px;
+	height: 45px;
+	border-left: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 45px;
+	color: #666;
+	font-size: 12px;
+	font-size: 8px;
+	text-align: center;
+	text-decoration: none;
+}
+.case_pages .upages {
+	width: 75px;
+	border-right: 1px solid #e5e5e5;
+}
+.case_pages .lpages {
+	width: 75px;
+}
+.case_pages span {
+	float: left;
+	height: 47px;
+	width: 60px;
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+	line-height: 47px;
+}
+/*翻页输入框按键*/
+.arrive {
+	float: right;
+	height: 47px;
+	line-height: 47px;
+	color: #666;
+	font-size: 12px;
+}
+.arrive .tbpages {
+	width: 43px;
+	height: 21px;
+	margin: 7px 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+.arrive .btngo {
+	width: 43px;
+	height: 21px;
+	margin-left: 3px;
+}
+.changeone {
+	background-color: #ff5a00;
+}

@@ -1,0 +1,200 @@
+@charset "uft-8";
+/*整体框架*/
+.casedetail {
+	margin: 0 auto;
+	padding-top: 46px;
+	background: #f5f5f5;
+}
+/*方案内容部分*/
+.casedetail_content {
+	position: relative;
+	width: 1118px;
+	height: 1759px;
+	padding: 58px 0 0 33px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+/*当前位置*/
+.casedetail_position {
+	position: absolute;
+	top: -46px;
+	left: 0;
+	height: 46px;
+	line-height: 46px;
+	font-family: "Microsoft YaHei";
+}
+.casedetail_position a {
+	color: #000;
+	font-family: "Microsoft YaHei";
+}
+/*方案导航*/
+.casedetail_nav {
+	float: left;
+	width: 260px;
+	height: 267px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.casedetail_nav h3 {
+	height: 20px;
+	margin-bottom: 23px;
+	font-size: 20px;
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+}
+.casedetail_nav li {
+	height: 48px;
+	padding-top: 7px;
+	border-top: 1px solid #dcdcdc;
+	font-family: "Microsoft YaHei";
+}
+.casedetail_nav li span {
+	display: block;
+	height: 40px;
+	width: 216px;
+	padding-left: 44px;
+	line-height: 40px;
+	color: #000;
+	font-style: "Microsoft Yahei";
+	cursor: pointer;
+	background: url("../images/case_navball.png") 23px center no-repeat;
+}
+.casedetail_tit {
+	position: relative;
+}
+.casedetail_nav .square {
+	display: block;
+	position: absolute;
+	z-index: 0;
+	height: 40px;
+	width: 260px;
+	margin-top: 7px;
+	background: rgb(157, 157, 157);
+	/*透明度兼容*/
+	-webkit-opacity: 0.5;
+	-moz-opacity: 0.5;
+	-ms-opacity: 0.5;
+	-o-opacity: 0.5;
+	opacity: 0.5;
+
+	filter: alpha(opacity=50);
+  	-webkit-border-radius: 20px; /* Safari 和 Chrome */
+	-moz-border-radius: 20px; /* Firefox */
+	-ms-border-radius: 20px; /* Firefox */
+	-o-border-radius: 20px; /* Firefox */
+  	border-radius: 20px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+
+
+
+/*详情内容*/
+.casedetail_list {
+	float: left;
+	width: 730px;
+	height: 1110px;
+	margin-left: 68px;
+}
+/*方案详情内容——头部标题*/
+.casedetail_list dl {
+	overflow: hidden;
+	height: 126px;
+	border-bottom: 1px dotted #ccc;
+}
+.casedetail_list dt a {
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+.casedetail_list dt img {
+	display: block;
+	width: 150px;
+	height: 100px;
+}
+.casedetail_list dd {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 529px;
+	height: 126px;
+	padding-left: 22px;
+}
+.casedetail_list dd h3 {
+	float: left;
+	width: 529px;
+	color: #000;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
+}
+.casedetail_list dd em {
+	float: left;
+	height: 20px;
+	margin-top: 10px;
+	line-height: 20px;
+	color: #107f8d;
+	font-size: 10px;
+	font-family: "Microsoft YaHei";
+}
+/*方案详情内容——文本内容*/
+.text p {
+	line-height: 25px;
+	color: #333;
+	font-size: 14px
+	font-family: "Microsoft YaHei";
+}
+.text img {
+	display: block; 
+	margin: 15px 0;
+}
+.text_one em {
+	display: block;
+	margin: 41px 0 10px 0;
+	color: #323232;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+.textone_list span {
+	display: block;
+	line-height: 25px;
+	color: #333;
+	font-size: 14px
+	font-family: "Microsoft YaHei";
+}
+.text_two em {
+	display: block;
+	margin: 0 0 10px 0;
+	color: #323232;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+} 
+.text_three em {
+	display: block;
+	margin: 10px 0 10px 0;
+	color: #323232;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+.text_three .small_tit {
+	line-height: 25px;
+	color: #333;
+	font-size: 14px
+	font-family: "Microsoft YaHei";
+}
+.textthree_list span {
+	display: block;
+	line-height: 25px;
+	color: #333;
+	font-size: 14px
+	font-family: "Microsoft YaHei";
+}
+.text_three b {
+	display: block;
+	line-height: 25px;
+	color: #333;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+
+
+
+
+

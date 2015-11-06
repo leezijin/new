@@ -1,0 +1,262 @@
+@charset "utf-8";
+.header {
+	height: 103px;
+	padding: 22px 120px 0;
+	background-color: #fff;
+}
+
+.logo {
+	float: left;
+	width: 263px;
+	height: 74px;
+}
+.logo img {
+	display: block;
+	width: 263px;
+	height: 74px;
+}
+
+.tel {
+	float: right;
+	padding-left: 20px;
+	background: url("../images/bac.png") 0 2px no-repeat;
+	font-size: 12px;
+	color: #999;
+}
+.tel em {
+	font-size: 18px;
+	color: #ff0000;
+}
+
+.nav {
+	float: right;
+	width: 675px;
+	position: relative;
+	margin-top: 20px;
+}
+.nav a {
+	float: left;
+	display: inline;
+	height: 60px;
+	margin-left: 40px;
+	color: #333;
+	font-family: "Microsoft Yahei";
+	font-size: 18px;
+	line-height: 30px;
+}
+.nav a:hover {
+	color: #d80b19;
+}
+.nav .back {
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	bottom: 30px;
+	left: 0;
+	width: 36px;
+	height: 2px;
+	margin-left: 40px;
+	background-color: #d80b19;
+}
+
+.pic a {
+	display: block;
+	width: 100%;
+	height: 220px;
+}
+.pic a img {
+	width: 100%;
+	height: 220px;
+}
+.footer {
+	padding: 25px 0 15px;
+	background: url("../images/footer.jpg") 0 0 repeat;
+}
+
+.footer_left {
+	float: left;
+	width: 628px;
+	height: 148px;
+	padding: 0 140px 0 125px;
+	margin-right: 20px;
+	border-right: 1px solid #5f5f5f;
+	box-shadow: 1px 0 0 #888;
+}
+.footer_left ul {
+	width: 615px;
+	margin-bottom: 20px;
+}
+.footer_left li {
+	float: left;
+	width: 120px;
+	height: 30px;
+	margin-right: 3px;
+	background-color: #000;
+	text-align: center;
+} 
+.footer_left li:hover {
+	background-color: #ff8b00;
+}
+.footer_left li a {
+	color: #fff;
+	font-size: 14px;
+	line-height: 30px;
+	font-family: "Microsoft Yahei";
+}
+
+/*友情链接*/
+.friendly_link {
+	width: 651px;
+	margin-left: 10px;
+	color: #939393;
+	font-size: 12px;
+	font-family: "Sim Sun";
+}
+.friendly_link .first {
+	width: 651px;
+}
+.friendly_link .second {
+	width: 445px;
+}
+.friendly_link .third {
+	width: 297px;
+}
+.friendly_link div a {
+	float: left; 
+	line-height: 24px;
+	color: #939393;
+}
+.friendly_link div a:hover {
+	color: #ff8b00;
+}
+
+
+.footer_right {
+	float: left;
+	font-size: 12px;
+	font-family: "Sim Sun";
+}
+.footer_right h2 {
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+}
+.footer_right h2 var {
+	font-size: 12px;
+	color: #616161;
+	line-height: 24px;
+}
+.footer_right span {
+	display: block;
+	padding-left: 35px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.footer_right .index_tel {
+	background: url(../images/bac.png) 0 -306px no-repeat;
+}
+.footer_right .index_email {
+	background: url(../images/bac.png) 0 -337px no-repeat;
+}
+.footer_right .index_add {
+	background: url(../images/bac.png) 0 -366px no-repeat;
+}
+.footer_right .index_tel em {
+	font-size: 14px;
+	color: #ff8b00;
+	font-family: "Microsoft Yahei";
+}
+.footer_right .index_email em {
+	font-size: 12px;
+	color: #c1c1c1;
+}
+.footer_right .index_add em {
+	font-size: 12px;
+	color: #fff;
+}
+
+/*copyright*/
+
+.copyright {
+	height: 34px;
+	padding-left: 120px;
+	background: url(../images/copyright.jpg) 0 0 repeat;
+}
+
+.copyright span {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 25px;
+	background: url("../images/bac.png") 3px -456px no-repeat;
+	font-size: 12px;
+	line-height: 34px;
+	color: #939393;
+	font-family: "Sim sun";
+}
+
+.copyright em {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 34px;
+	color: #939393;
+	font-family: "Sim sun";
+}
+
+
+/*侧边功能栏*/
+.case_contact {
+	position: fixed;
+	z-index: 10;
+	top: 200px;
+	right: -127px;
+	cursor: pointer;
+	-webkit-transform: all 0.3s ease;
+	-moz-transform: all 0.3s ease;
+	-ms-transform: all 0.3s ease;
+	-o-transform: all 0.3s ease;
+	transform: all 0.3s ease;
+}
+/*栏样式*/
+.contact_bar ul li {
+	overflow: hidden;
+	width: 180px;
+	height: 53px;
+	margin-bottom: 3px;
+	color: #fff;
+	font: 16px/53px 'Microsoft YaHei';
+	line-height: 53px;
+	text-indent: 54px;
+	border-radius: 3px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+/*各个功能栏背景*/
+.contact_bar .contact_top {
+	background: #646464 url("../images/bac.png") -578px -330px no-repeat;
+}
+.contact_bar .contact_phone {
+	background: #646464 url("../images/bac.png") -578px -389px no-repeat;
+}
+.contact_bar .contact_qq {
+	background: #646464 url("../images/bac.png") -578px -443px no-repeat;
+}
+.contact_bar .contact_ercode {
+	/*height:200px;*/
+	background: #646464 url("../images/bac.png") -578px -498px no-repeat;
+}
+.contact_qq a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: 54px;
+	color: #fff;
+	text-decoration: none;
+}
+.contact_ercode img {
+	display: block;
+	width: 125px;
+	padding: 0 29px 25px 29px;
+}
